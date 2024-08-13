@@ -1,0 +1,26 @@
+.action-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.burger-button {
+    display: none !important;
+}
+
+@media (max-width: 500px) {
+    .login-button {
+        display: none !important;
+    }
+
+    .burger-button {
+        display: flex !important;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}

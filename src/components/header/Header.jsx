@@ -5,7 +5,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import '../../styles/variable-color.css';
 import './Header.style.css';
 
-
+import LoginModalButton from '../LoginModal/LoginModal';
 
 export default function Header() {
   const [tab, setTab] = React.useState('Home');
@@ -64,7 +64,7 @@ export default function Header() {
         </ToggleButtonGroup>
       </div>
       <div className="right">
-        {/* <LoginModalButton></LoginModalButton> */}
+        <LoginModalButton></LoginModalButton>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import Header from './components/header/Header.jsx';
 import Body from './components/body/Body.jsx';
 import './App.css';
+import Footer from './components/Footer/Footer';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <Header />
         <Body />
+        <Footer />
       </ThemeProvider>
     </div>
   );

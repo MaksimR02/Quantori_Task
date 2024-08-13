@@ -1,0 +1,7 @@
+.footer-container {
+    padding: 4px 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: #36485e;
+}
