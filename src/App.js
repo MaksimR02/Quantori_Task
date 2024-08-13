@@ -1,4 +1,5 @@
 import Header from './components/header/Header.jsx';
+import Body from './components/body/Body.jsx';
 import './App.css';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -18,6 +19,7 @@ export default function App() {
     <div className="app" style={{ fontFamily: 'Roboto, sans-serif' }}>
       <ThemeProvider theme={theme}>
         <Header />
+        <Body />
       </ThemeProvider>
     </div>
   );

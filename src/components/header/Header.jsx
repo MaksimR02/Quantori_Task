@@ -2,7 +2,10 @@ import * as React from 'react';
 import { ToggleButton, ToggleButtonGroup } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
+import '../../styles/variable-color.css';
 import './Header.style.css';
+
+
 
 export default function Header() {
   const [tab, setTab] = React.useState('Home');
@@ -60,7 +63,9 @@ export default function Header() {
           </ToggleButton>
         </ToggleButtonGroup>
       </div>
-      <div className="right">{/* <LoginModalButton></LoginModalButton> */}</div>
+      <div className="right">
+        {/* <LoginModalButton></LoginModalButton> */}
+      </div>
     </div>
   );
 }
